@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component renders correctly 1`] = `
+.c0 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c1 {
+  background: #F0F0F0;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.c4:before {
+  line-height: 24px;
+  content: ".";
+  display: block;
+}
+
+.c2 {
+  text-align: left;
+  height: 64px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.c2:hover {
+  background: #F0F0F0;
+}
+
+.c2:hover td {
+  background: #F0F0F0 !important;
+}
+
+.c3 {
+  color: #8C8C8C;
+  text-align: left;
+  font-family: "Maison Neue",arial;
+}
+
+.c5 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #050505;
+  font-family: "Maison Neue",arial;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+<table
+  className="c0"
+  data-testid="TableContainer"
+  role="table"
+>
+  <thead
+    className="c1"
+    data-testid="TableHeader"
+    role="rowgroup"
+  >
+    <tr
+      className="c2"
+      data-testid="TableRow"
+      role="row"
+    >
+      <th
+        className="c3"
+        data-testid="TableHead__0"
+        role="columnheader"
+        style={
+          Object {
+            "borderRadius": "none",
+          }
+        }
+      >
+        firstName
+      </th>
+      <th
+        className="c3"
+        data-testid="TableHead__1"
+        role="columnheader"
+        style={
+          Object {
+            "borderRadius": "0 10px 10px 0",
+          }
+        }
+      >
+        lastName
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="c4"
+    data-testid="TableBody"
+    role="rowgroup"
+  >
+    <tr
+      className="c2"
+      data-testid="TableRow__0"
+      role="row"
+    >
+      <td
+        className="c5"
+        role="columnheader"
+        style={
+          Object {
+            "background": "white",
+            "borderRadius": "none",
+          }
+        }
+      >
+        Jonathan
+      </td>
+      <td
+        className="c5"
+        role="columnheader"
+        style={
+          Object {
+            "background": "white",
+            "borderRadius": "0 10px 10px 0",
+          }
+        }
+      >
+        IBOR
+      </td>
+    </tr>
+    <tr
+      className="c2"
+      data-testid="TableRow__1"
+      role="row"
+    >
+      <td
+        className="c5"
+        role="columnheader"
+        style={
+          Object {
+            "background": "white",
+            "borderRadius": "none",
+          }
+        }
+      >
+        Jean
+      </td>
+      <td
+        className="c5"
+        role="columnheader"
+        style={
+          Object {
+            "background": "white",
+            "borderRadius": "0 10px 10px 0",
+          }
+        }
+      >
+        Dupond
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

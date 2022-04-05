@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Component renders correctly 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #FC5C63;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  vertical-align: middle;
+  width: 32px;
+}
+
+.c2:focus {
+  outline: 1px dashed #FC5C63;
+}
+
+.c2:hover {
+  background-color: #FC5057;
+}
+
+.c1 {
+  margin: 0;
+  font-family: Maison Neue,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.c3 {
+  margin-right: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 28px;
+  padding: 0 28px;
+}
+
+@media only screen and (max-width:760px), (min-device-width:768px) and (max-device-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<section
+  className="c0"
+>
+  <p
+    className="c1"
+    data-testid="PaginationInformations"
+  >
+    1
+     — 
+    5
+     of 
+    50
+  </p>
+  <div>
+    <button
+      className="c2 c3"
+      data-testid="ButtonSquareWithMarginRight"
+      onClick={[Function]}
+    >
+      <svg>
+        previous.svg
+      </svg>
+    </button>
+    <button
+      className="c2"
+      data-testid="ButtonSquare"
+      onClick={[Function]}
+    >
+      <svg>
+        next.svg
+      </svg>
+    </button>
+  </div>
+</section>
+`;
