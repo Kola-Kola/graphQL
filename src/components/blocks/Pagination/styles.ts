@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { bodyBook16 } from "../../utility/typography";
-import ButtonSquare from "../ButtonSquare";
+import ButtonSquare from "../../controls/ButtonSquare";
 
 export const PaginationInformations = styled.p`
   margin: 0;
